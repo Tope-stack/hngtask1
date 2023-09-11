@@ -24,8 +24,8 @@ app.get('/api/info', async (req, res) => {
       return res.status(HttpStatus.BAD_REQUEST).json({ error: 'UTC time is not within +/-2 hours.' });
     }
 
-    const codeFileUrl = 'https://github.com/Tope-stack/HngXTask1/blob/master/Controllers/InfoController.cs';
-    const sourceCodeUrl = 'https://github.com/Tope-stack/HngXTask1';
+    const codeFileUrl = 'https://github.com/Tope-stack/hngtask1/blob/master/index.js';
+    const sourceCodeUrl = 'https://github.com/Tope-stack/hngtask1';
 
     const response = {
       SlackName: slackName,
